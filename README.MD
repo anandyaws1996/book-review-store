@@ -15,7 +15,7 @@ Install dependencies:
 npm install
 ```
 
-Create .env file:Copy the .env example and update with your MongoDB URI and JWT secret.
+Create .env file, update with your MongoDB URI and JWT secret.
 
 Run the application:
 ```
