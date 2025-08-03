@@ -30,7 +30,7 @@ npm run dev
 
 API Endpoints
 General Users
-
+```
 GET /api/books: Get all books (Task 10)
 GET /api/books/isbn/:isbn: Get book by ISBN (Task 11)
 GET /api/books/author/:author: Get books by author (Task 12)
@@ -38,11 +38,13 @@ GET /api/books/title/:title: Get books by title (Task 13)
 GET /api/reviews/:isbn: Get reviews for a book (Task 5)
 POST /api/users/register: Register a new user (Task 6)
 POST /api/users/login: Login as a registered user (Task 7)
+```
 
 Registered Users
-
+```
 POST /api/reviews: Add or modify a book review (Task 8, requires JWT)
 DELETE /api/reviews/:reviewId: Delete a review (Task 9, requires JWT)
+```
 
 Notes
 
